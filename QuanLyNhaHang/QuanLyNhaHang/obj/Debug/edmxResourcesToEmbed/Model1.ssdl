@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QL_NhaHangModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="QL_NhaHangModelStoreContainer">
+    <EntitySet Name="NHANVIEN" EntityType="QL_NhaHangModel.Store.NHANVIEN" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="char" MaxLength="10" />
+    <Property Name="DienThoai" Type="varchar" MaxLength="10" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="3" />
+    <Property Name="ChucVu" Type="nvarchar" MaxLength="20" />
+    <Property Name="NgayVaoLam" Type="date" />
+    <Property Name="LuongCB" Type="float" />
+  </EntityType>
+</Schema>

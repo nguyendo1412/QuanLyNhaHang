@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QL_NhaHangModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="QL_NhaHangModel1StoreContainer">
+    <EntitySet Name="ACCOUNT" EntityType="QL_NhaHangModel1.Store.ACCOUNT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BANAN" EntityType="QL_NhaHangModel1.Store.BANAN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CHITIET_HD" EntityType="QL_NhaHangModel1.Store.CHITIET_HD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CHUCVU" EntityType="QL_NhaHangModel1.Store.CHUCVU" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HOADON" EntityType="QL_NhaHangModel1.Store.HOADON" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KHACHHANG" EntityType="QL_NhaHangModel1.Store.KHACHHANG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MONAN" EntityType="QL_NhaHangModel1.Store.MONAN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NHANVIEN" EntityType="QL_NhaHangModel1.Store.NHANVIEN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NHOMMONAN" EntityType="QL_NhaHangModel1.Store.NHOMMONAN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PHIEUTHANHTOAN" EntityType="QL_NhaHangModel1.Store.PHIEUTHANHTOAN" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_MaBan" Association="QL_NhaHangModel1.Store.FK_MaBan">
+      <End Role="BANAN" EntitySet="BANAN" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaBan1" Association="QL_NhaHangModel1.Store.FK_MaBan1">
+      <End Role="BANAN" EntitySet="BANAN" />
+      <End Role="PHIEUTHANHTOAN" EntitySet="PHIEUTHANHTOAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaHD" Association="QL_NhaHangModel1.Store.FK_MaHD">
+      <End Role="HOADON" EntitySet="HOADON" />
+      <End Role="CHITIET_HD" EntitySet="CHITIET_HD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaKH" Association="QL_NhaHangModel1.Store.FK_MaKH">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaKH1" Association="QL_NhaHangModel1.Store.FK_MaKH1">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="PHIEUTHANHTOAN" EntitySet="PHIEUTHANHTOAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaMon" Association="QL_NhaHangModel1.Store.FK_MaMon">
+      <End Role="MONAN" EntitySet="MONAN" />
+      <End Role="CHITIET_HD" EntitySet="CHITIET_HD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaNhom" Association="QL_NhaHangModel1.Store.FK_MaNhom">
+      <End Role="NHOMMONAN" EntitySet="NHOMMONAN" />
+      <End Role="MONAN" EntitySet="MONAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaNV" Association="QL_NhaHangModel1.Store.FK_MaNV">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MaNV1" Association="QL_NhaHangModel1.Store.FK_MaNV1">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="PHIEUTHANHTOAN" EntitySet="PHIEUTHANHTOAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NV_CV" Association="QL_NhaHangModel1.Store.FK_NV_CV">
+      <End Role="CHUCVU" EntitySet="CHUCVU" />
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_quyen" Association="QL_NhaHangModel1.Store.FK_quyen">
+      <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+      <End Role="CHUCVU" EntitySet="CHUCVU" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ACCOUNT">
+    <Key>
+      <PropertyRef Name="quyen" />
+    </Key>
+    <Property Name="UserName" Type="char" MaxLength="10" />
+    <Property Name="Pass" Type="char" MaxLength="10" />
+    <Property Name="quyen" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BANAN">
+    <Key>
+      <PropertyRef Name="MaBan" />
+    </Key>
+    <Property Name="MaBan" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TenBan" Type="nvarchar" MaxLength="50" />
+    <Property Name="TrangThai" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="CHITIET_HD">
+    <Key>
+      <PropertyRef Name="MaHD" />
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaHD" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="MaMon" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TenMon" Type="nvarchar" MaxLength="50" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="TongMon" Type="int" />
+  </EntityType>
+  <EntityType Name="CHUCVU">
+    <Key>
+      <PropertyRef Name="TenChucVu" />
+    </Key>
+    <Property Name="TenChucVu" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="quyen" Type="int" />
+  </EntityType>
+  <EntityType Name="HOADON">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="MaNV" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="MaKH" Type="int" Nullable="false" />
+    <Property Name="MaBan" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TongTien" Type="money" />
+    <Property Name="NgayLap" Type="date" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="100" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="3" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
+    <Property Name="DienThoai" Type="varchar" MaxLength="10" />
+    <Property Name="TheTV" Type="char" MaxLength="10" />
+    <Property Name="DiemTL" Type="float" />
+  </EntityType>
+  <EntityType Name="MONAN">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaMon" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TenMon" Type="nvarchar" MaxLength="50" />
+    <Property Name="DonViTinh" Type="nvarchar" MaxLength="10" />
+    <Property Name="DonGia" Type="float" />
+    <Property Name="MaNhom" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="char" MaxLength="10" />
+    <Property Name="DienThoai" Type="varchar" MaxLength="10" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="3" />
+    <Property Name="ChucVu" Type="nvarchar" MaxLength="20" />
+    <Property Name="NgayVaoLam" Type="date" />
+    <Property Name="LuongCB" Type="float" />
+  </EntityType>
+  <EntityType Name="NHOMMONAN">
+    <Key>
+      <PropertyRef Name="MaNhom" />
+    </Key>
+    <Property Name="MaNhom" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="TenNhom" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="PHIEUTHANHTOAN">
+    <Key>
+      <PropertyRef Name="SoPhieu" />
+    </Key>
+    <Property Name="SoPhieu" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="NgayLap" Type="date" />
+    <Property Name="TongTien" Type="float" />
+    <Property Name="MaNV" Type="char" MaxLength="10" />
+    <Property Name="MaKH" Type="int" />
+    <Property Name="MaBan" Type="char" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_MaBan">
+    <End Role="BANAN" Type="QL_NhaHangModel1.Store.BANAN" Multiplicity="1" />
+    <End Role="HOADON" Type="QL_NhaHangModel1.Store.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BANAN">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaBan1">
+    <End Role="BANAN" Type="QL_NhaHangModel1.Store.BANAN" Multiplicity="0..1" />
+    <End Role="PHIEUTHANHTOAN" Type="QL_NhaHangModel1.Store.PHIEUTHANHTOAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BANAN">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="PHIEUTHANHTOAN">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaHD">
+    <End Role="HOADON" Type="QL_NhaHangModel1.Store.HOADON" Multiplicity="1" />
+    <End Role="CHITIET_HD" Type="QL_NhaHangModel1.Store.CHITIET_HD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOADON">
+        <PropertyRef Name="MaHD" />
+      </Principal>
+      <Dependent Role="CHITIET_HD">
+        <PropertyRef Name="MaHD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaKH">
+    <End Role="KHACHHANG" Type="QL_NhaHangModel1.Store.KHACHHANG" Multiplicity="1" />
+    <End Role="HOADON" Type="QL_NhaHangModel1.Store.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaKH1">
+    <End Role="KHACHHANG" Type="QL_NhaHangModel1.Store.KHACHHANG" Multiplicity="0..1" />
+    <End Role="PHIEUTHANHTOAN" Type="QL_NhaHangModel1.Store.PHIEUTHANHTOAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="PHIEUTHANHTOAN">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaMon">
+    <End Role="MONAN" Type="QL_NhaHangModel1.Store.MONAN" Multiplicity="1" />
+    <End Role="CHITIET_HD" Type="QL_NhaHangModel1.Store.CHITIET_HD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONAN">
+        <PropertyRef Name="MaMon" />
+      </Principal>
+      <Dependent Role="CHITIET_HD">
+        <PropertyRef Name="MaMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaNhom">
+    <End Role="NHOMMONAN" Type="QL_NhaHangModel1.Store.NHOMMONAN" Multiplicity="0..1" />
+    <End Role="MONAN" Type="QL_NhaHangModel1.Store.MONAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHOMMONAN">
+        <PropertyRef Name="MaNhom" />
+      </Principal>
+      <Dependent Role="MONAN">
+        <PropertyRef Name="MaNhom" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaNV">
+    <End Role="NHANVIEN" Type="QL_NhaHangModel1.Store.NHANVIEN" Multiplicity="1" />
+    <End Role="HOADON" Type="QL_NhaHangModel1.Store.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MaNV1">
+    <End Role="NHANVIEN" Type="QL_NhaHangModel1.Store.NHANVIEN" Multiplicity="0..1" />
+    <End Role="PHIEUTHANHTOAN" Type="QL_NhaHangModel1.Store.PHIEUTHANHTOAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PHIEUTHANHTOAN">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NV_CV">
+    <End Role="CHUCVU" Type="QL_NhaHangModel1.Store.CHUCVU" Multiplicity="0..1" />
+    <End Role="NHANVIEN" Type="QL_NhaHangModel1.Store.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHUCVU">
+        <PropertyRef Name="TenChucVu" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="ChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_quyen">
+    <End Role="ACCOUNT" Type="QL_NhaHangModel1.Store.ACCOUNT" Multiplicity="0..1" />
+    <End Role="CHUCVU" Type="QL_NhaHangModel1.Store.CHUCVU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ACCOUNT">
+        <PropertyRef Name="quyen" />
+      </Principal>
+      <Dependent Role="CHUCVU">
+        <PropertyRef Name="quyen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

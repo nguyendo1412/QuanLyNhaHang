@@ -1,0 +1,80 @@
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe.config
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.Properties.Resources.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csproj.GenerateResource.Cache
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.pdb
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Login.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.exe
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.pdb
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe.config
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.exe
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.pdb
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.pdb
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csprojResolveAssemblyReference.cache
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Login.resources
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Restaurant.resources
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.Properties.Resources.resources
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csproj.GenerateResource.Cache
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ChangePassword.resources
+C:\Users\BesNhi\OneDrive - Ho Chi Minh city University of Food Industry\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Register.resources
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe.config
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.exe
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.pdb
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.pdb
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ChangePassword.resources
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Login.resources
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Register.resources
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Restaurant.resources
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.Properties.Resources.resources
+C:\Users\Admin\Desktop\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csproj.GenerateResource.Cache
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe.config
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.exe
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.pdb
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.pdb
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csprojResolveAssemblyReference.cache
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ChangePassword.resources
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Login.resources
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Register.resources
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Restaurant.resources
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.Properties.Resources.resources
+C:\Users\BesNhi\OneDrive\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csproj.GenerateResource.Cache
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ChangePassword.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_TrangChu.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlDatBan.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlNhanVien.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlThongKe.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlThucDon.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlHoaDon.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlKhachHang.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ThemKH.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_PhieuThanhToan.resources
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csprojResolveAssemblyReference.cache
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\EntityFramework.dll
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\bin\Debug\EntityFramework.xml
+C:\Users\BesNhi\Documents\Công nghệ .NET\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.ThongTinDatBan.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe.config
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.exe
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.pdb
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.exe
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\bin\Debug\QuanLyNhaHang.pdb
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ChangePassword.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_Login.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_PhieuThanhToan.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_ThemKH.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.frm_TrangChu.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.Properties.Resources.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.ThongTinDatBan.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlDatBan.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlHoaDon.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlKhachHang.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlNhanVien.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlThongKe.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.UserControlThucDon.resources
+C:\Users\Admin\Desktop\Do Cac Mon HK5\.NET_DoAn\.NET_DoAn\QuanLyNhaHang\obj\Debug\QuanLyNhaHang.csproj.GenerateResource.Cache
